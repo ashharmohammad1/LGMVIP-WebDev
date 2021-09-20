@@ -1,0 +1,215 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.center{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.containerr {
+    padding: 2px 14px;
+    color: black;
+}
+
+.navbar a {
+    padding: 2px;
+    margin: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover{
+    color: yellow;
+}
+
+.brand {
+    font-weight: bolder;
+    font-size: 40px !important;
+}
+
+.nav{
+    position:absolute;
+}
+
+.mySlides {
+    display: block;
+}
+
+img{
+    background-size: 100% 100%;
+}
+
+.text {
+    color: #f2f2f2;
+    position: absolute;
+    top:30%;
+    left: 5%;
+    width: 100%;
+    text-align: left;
+}
+
+.slider .btn{
+    padding: 10px 18px;
+    border-radius: 0%;
+    text-transform: uppercase;
+    background: rgb(0, 128, 53);
+    color:white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background: rgb(0, 255, 200);
+    color: black;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    cursor: pointer;
+    margin-right:5px;
+    background-color: rgb(194, 194, 194); 
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.active,.dot:hover{
+    background-color: gray;
+}
+
+.marquee-wrapper {
+    overflow: hidden;
+}
+.marquee {
+    display: flex;
+    animation-name:marquee;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    transform: translateX(0);
+}
+
+@keyframes marquee {
+from {transform: translateX(0);}
+to {transform: translateX(-100%);}
+}
+
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+.actiive,
+.demo:hover {
+    opacity: 1;
+}
+
+.section8{
+    margin-top: 20px;
+    padding: 100px;
+    background-image: url("https://img.freepik.com/free-vector/abstract-background_53876-43362.jpg?size=626&ext=jpg");
+}
+
+.section8 input{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+}
+
+.pd-2{
+    margin-left: 10vw;
+}
+
+.p1 .imgc{
+    width:100%;
+    height: 100%;
+}
+
+.p2{
+    padding: 2px;
+    margin: 0px;
+}
+
+.section10{
+    background-color: rgb(183, 230, 130);
+}
+
+.section10 input{
+    width: 90%;
+    padding: 5px;
+    margin: 5px 0 22px 0;
+    border: none;
+}
+
+.footer{
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+}
+
+.section2 .part1 ,.section2 .part2 {
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+
+}
+
