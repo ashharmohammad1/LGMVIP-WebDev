@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    background-color: rgb(199, 126, 206);
+}
+
+.App {
+    padding: 50px;
+    color: #6fb7bd;
+}
+
+.card-img-top {
+    padding: 10px;
+}
+
+.cardContainer {
+    padding: 10px;
+    float: left;
+}
+
+.card {
+    background-image: linear-gradient(to bottom right, rgb(103 208 255), rgb(202 211 255));
+    width: 9rem;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
